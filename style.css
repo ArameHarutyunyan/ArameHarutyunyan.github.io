@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: tahoma;
+    height: 80vh;
+    background: #0D1117;
+}
+
+.names-holder {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    height: 50px;
+}
+
+.names {
+    margin-right: 60px;
+    text-decoration: none;
+    font-family: cursive;
+    color: rgb(75, 75, 75);
+    transition:color .3s;
+}
+
+.names:hover {
+    color: rgb(212, 155, 31);
+}
+
+.name-2 {
+    color: #fff;
+}
+
+.name-2:hover {
+    color: #fff;
+}
+
+
+.container {
+    width: 427px;
+    height: 589px;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 550px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    /* margin: 10% auto; */
+}
+
+.main-info-holder{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-holder img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #5D5D5D;
+    font-size: 32px;
+    font-family: tahoma;
+}
+
+ p {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: rgb(75, 75, 75);
+    line-height: 30px;
+ }
+
+ h3 {
+    color: rgb(75, 75, 75);
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: cursive;
+ }
+
+.soc-links {
+    color: #fff;
+    background: rgb(59, 59, 59);
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    transition: 0.2s;
+    text-decoration: none;
+    width: 42px;
+    height: 36px;
+ }
+
+ .soc {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+ }
+
+ .soc-links:hover {
+    background-color: rgb(95, 94, 94);
+    border: 2px solid rgb(59, 59, 59);
+}
